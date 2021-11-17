@@ -1,1 +1,67 @@
+.container {
+  height: 58vh;
+  width: 47vh;
+  border-radius: 1rem;
+  padding: 350px;
+  padding-top: 100px;
+  
+ 
+}
 
+div .button {
+  padding-left: 50px;
+  padding-top: 40px;
+  place-content: center;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px;
+  gap: 5px;
+  border-radius: 50px;
+  width: 150px;
+  height: 100%;
+  padding-left: 200px;
+
+}
+
+.btn {
+  border-radius: 45%;
+  background-color:rgba(202, 20, 20, 0.911);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.light-gray {
+  background-color: lightblue;
+  color: black;
+
+} 
+
+.orange {
+  background-color: orange;
+  font-size: 24px;
+}
+
+.display {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: right;
+  background-color: black;
+  border-radius: 5%;
+  color: white;
+} 
+
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 40px;
+}
